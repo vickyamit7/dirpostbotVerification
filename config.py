@@ -18,8 +18,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "vicky15")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inshorturl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "653b44442eff537e0e130a6f44d03f58373feeb4")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "adrinolinks.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "1f847ab1bb48297153db0352c266f75b38716ad2")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 36000)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "t.me/c/2115482280/4399") 
